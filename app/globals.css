@@ -3,7 +3,7 @@
 /* base color palette */
 :root,
 [data-theme="alien"] {
-  --background: #0b1411;
+  --background: #101f15;
   --primary: #00ff00;
   --secondary: #008400;
   --accent: #b8ffb8;
@@ -14,7 +14,6 @@
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-accent: var(--accent);
-  --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
@@ -26,9 +25,10 @@
   --accent: #f0b429;
 }
 
-body {
+* {
   background: var(--background);
   color: var(--secondary);
+  font-size: 12px;
   font-family:
     var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco,
     Consolas, "Liberation Mono", "Courier New", monospace;
