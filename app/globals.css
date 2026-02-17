@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-// base color palette
+/* base color palette */
 :root,
 [data-theme="alien"] {
   --background: #0b1411;
@@ -18,7 +18,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-// additional color palettes
+/* additional color palettes */
 [data-theme="navy"] {
   --background: #0b1020;
   --primary: #1f4b99;
