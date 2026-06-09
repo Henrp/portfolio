@@ -2,11 +2,11 @@
 
 /* base color palette */
 :root,
-[data-theme="alien"] {
-  --background: #101f15;
-  --primary: #00ff00;
-  --secondary: #008400;
-  --accent: #b8ffb8;
+[data-theme="sky"] {
+  --background: #6aabdb; /* sky blue */
+  --primary: #f0f7ff; /* white */
+  --secondary: #b8d8f0; /* light blue */
+  --accent: #f5d76e; /* yellow */
 }
 
 @theme inline {
@@ -23,6 +23,13 @@
   --primary: #1f4b99;
   --secondary: #e3ecff;
   --accent: #f0b429;
+}
+
+[data-theme="alien"] {
+  --background: #101f15;
+  --primary: #00ff00;
+  --secondary: #008400;
+  --accent: #b8ffb8;
 }
 
 body {

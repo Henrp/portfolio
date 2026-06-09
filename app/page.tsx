@@ -10,10 +10,16 @@ export default function Home() {
       <div className="space-y-6">
         <div className="space-y-2">
           <header>Introduction</header>
-          <p className="text-primary pl-4 leading-6">Hi 👋 I'm Henry.</p>
           <p className="text-primary pl-4 leading-6">
-            I'm a computing and music enthusiast majoring in Electrical
-            Engineering and Computer Sciences (EECS) at UC Berkeley.
+            Hi, I'm <span className="text-accent">Henry</span>.
+          </p>
+          <p className="text-primary pl-4 leading-6">
+            I'm a computer and music enthusiast.
+          </p>
+          <p className="text-primary pl-4 leading-6">
+            I go to{" "}
+            <span className="bg-[#003262] text-[#FDB515] px-1">Cal</span> and
+            study electrical engineering and computer science.
           </p>
         </div>
 
@@ -21,7 +27,14 @@ export default function Home() {
           <header>The Present</header>
           <p className="text-primary pl-4 leading-6">
             Software Engineer at{" "}
-            <a href="https://berkeleytime.com/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Berkeleytime</a>
+            <a
+              href="https://berkeleytime.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:underline"
+            >
+              Berkeleytime
+            </a>
           </p>
         </div>
         {/* <div>Experience</div> */}
@@ -29,17 +42,30 @@ export default function Home() {
           <header>Get in touch</header>
           <p className="pl-4">
             <a href="mailto:henrp@berkeley.edu" className="hover:underline">
-              <span className="text-accent">henrp</span>(at)<span className="text-accent">berkeley</span>(dot)<span className="text-accent">edu</span>
+              <span className="text-accent">henrp</span>(at)
+              <span className="text-accent">berkeley</span>(dot)
+              <span className="text-accent">edu</span>
             </a>
           </p>
           <p className="pl-4">
-            <a href="https://github.com/Henrp" target="_blank" rel="noopener noreferrer" className="hover:underline">
+            <a
+              href="https://github.com/Henrp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
               github.com/<span className="text-accent">Henrp</span>
             </a>
           </p>
           <p className="pl-4">
-            <a href="https://linkedin.com/in/henry-kim-b5b281231" target="_blank" rel="noopener noreferrer" className="hover:underline">
-              linkedin.com/in/<span className="text-accent">henry-kim-b5b281231</span>
+            <a
+              href="https://linkedin.com/in/henry-kim-b5b281231"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              linkedin.com/in/
+              <span className="text-accent">henry-kim-b5b281231</span>
             </a>
           </p>
         </div>
