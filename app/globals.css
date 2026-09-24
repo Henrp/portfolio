@@ -3,10 +3,10 @@
 /* base color palette */
 :root,
 [data-theme="sky"] {
-  --background: #6aabdb; /* sky blue */
-  --primary: #f0f7ff; /* white */
-  --secondary: #b8d8f0; /* light blue */
-  --accent: #f5d76e; /* yellow */
+  --background: #5798c8;
+  --primary: #ffffff;
+  --secondary: #d4e9f7;
+  --accent: #ffe27a;
 }
 
 @theme inline {

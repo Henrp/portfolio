@@ -20,8 +20,10 @@ export default function Home() {
           </p>
           <p className="text-primary pl-4 leading-6">
             I go to{" "}
-            <span className="bg-[#003262] text-[#FDB515] px-1">Cal</span> and
-            study electrical engineering and computer science.
+            <span className="bg-[#003262]/40 text-[#FDB515] px-1 rounded-sm">
+              Cal
+            </span>{" "}
+            and study electrical engineering and computer science.
           </p>
         </div>
 
@@ -52,6 +54,18 @@ export default function Home() {
         </div>
         <div className="space-y-2">
           <header>Things I've done</header>
+
+          <p className="text-primary pl-4 leading-6">
+            <a
+              href="https://legali.ai/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Legali AI
+            </a>{" "}
+            <span className="text-secondary">| August 2026 - Present</span>
+          </p>
           <p className="text-primary pl-4 leading-6">
             <a
               href="https://broctagon.com/"
